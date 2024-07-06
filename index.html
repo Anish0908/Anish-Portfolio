@@ -3,185 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anish Sampath - Developer Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Create a CSS file for styling -->
-    <style>
-        /* Add decorative styles here */
-        body {
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-        }
-
-        header {
-            text-align: center;
-            background-color: #007BFF;
-            padding: 20px 0;
-            color: white;
-            animation: slideInDown 1s;
-        }
-
-        @keyframes slideInDown {
-            from {
-                transform: translateY(-100%);
-            }
-            to {
-                transform: translateY(0);
-            }
-        }
-
-        header h1 {
-            font-size: 36px;
-        }
-
-        header p {
-            font-size: 18px;
-        }
-
-        nav {
-            background-color: #333;
-            animation: fadeIn 1s;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav li {
-            margin: 0 20px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-size: 16px;
-        }
-
-        section {
-            background-color: white;
-            margin: 20px;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            animation: fadeInUp 1s;
-        }
-
-        @keyframes fadeInUp {
-            from {
-                transform: translateY(50%);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
-
-        section h2 {
-            font-size: 24px;
-            color: #007BFF;
-        }
-
-        section p {
-            font-size: 16px;
-        }
-
-        footer {
-            text-align: center;
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-        }
-    </style>
+    <title>Anish Sampath - Cyber Security Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Anish Sampath</h1>
-        <p>Site Reliability Engineer</p>
+        <div class="container">
+            <img src="profile-picture.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Anish Sampath</h1>
+            <h2>Cyber Security Engineer</h2>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
-    </nav>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>An accomplished Site Reliability Engineer (SRE) with 3 years of experience designing, constructing, and upkeeping highly scalable and dependable systems. I aim to secure a demanding role that allows me to utilize my skills in automating, monitoring, responding to incidents, and managing infrastructure to guarantee the accessibility, speed, and effectiveness of vital applications and services.</p>
+        <div class="container">
+            <h3>About Me</h3>
+            <p>Detail-oriented and highly skilled Cyber Security Engineer with a strong educational background and hands-on experience in cybersecurity practices...</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h3>Employment History</h3>
+            <h4>Cyber Security Engineer - Tesco, London (Feb 2023 — July 2024)</h4>
+            <ul>
+                <li>Developed and implemented security protocols to protect sensitive information and mitigate risks.</li>
+                <li>Conducted comprehensive security assessments and vulnerability testing across company systems.</li>
+                <li>Collaborated with IT teams to integrate security solutions within existing infrastructure.</li>
+                <li>Monitored network traffic for unusual activity and promptly responded to security incidents.</li>
+                <li>Provided security guidance and training to staff, enhancing overall organizational security posture.</li>
+            </ul>
+        </div>
     </section>
 
     <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Programming Languages: Python, Shell scripting</li>
-            <li>Cloud Technologies: AWS, Azure</li>
-            <li>Containerization and Orchestration: Docker, Kubernetes</li>
-            <!-- Add more skills here -->
-        </ul>
+        <div class="container">
+            <h3>Skills</h3>
+            <ul class="skills-list">
+                <li><i class="fas fa-shield-alt"></i> Risk Assessment</li>
+                <li><i class="fas fa-bug"></i> Threat Analysis</li>
+                <li><i class="fas fa-tools"></i> Incident Response</li>
+                <li><i class="fas fa-network-wired"></i> Vulnerability Management</li>
+                <li><i class="fas fa-file-alt"></i> Security Audits</li>
+                <li><i class="fab fa-aws"></i> AWS Security</li>
+                <li><i class="fab fa-microsoft"></i> Azure Security</li>
+                <li><i class="fas fa-network-wired"></i> Network Security</li>
+                <li><i class="fas fa-fire-alt"></i> Firewall Management</li>
+                <li><i class="fas fa-lock"></i> IDS/IPS</li>
+                <li><i class="fas fa-chart-line"></i> SIEM Solutions</li>
+                <li><i class="fas fa-code"></i> Python, PowerShell, Bash</li>
+                <li><i class="fas fa-book"></i> GDPR, HIPAA, ISO/IEC 27001</li>
+                <li><i class="fas fa-brain"></i> Analytical Thinking</li>
+                <li><i class="fas fa-users"></i> Team Collaboration</li>
+                <li><i class="fas fa-comments"></i> Effective Communication</li>
+            </ul>
+        </div>
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>MissionCritical MoniTrak: Prometheus & Grafana Observatory</h3>
-            <p>Jan 2019 — Jan 2021</p>
-            <p>Developed and deployed an all-encompassing observability solution utilizing Prometheus and Grafana, delivering real-time monitoring and alerting for vital applications and services.</p>
+        <div class="container">
+            <h3>Projects</h3>
+            <div class="project">
+                <h4>Advanced Threat Detection System Implementation</h4>
+                <p>Led the implementation of a next-generation threat detection system, reducing incident response time by 40%...</p>
+            </div>
+            <div class="project">
+                <h4>Cloud Security Enhancement</h4>
+                <p>Spearheaded the project to secure multi-cloud environments (AWS and Azure) through advanced security configurations...</p>
+            </div>
+            <div class="project">
+                <h4>Security Information and Event Management (SIEM) Implementation</h4>
+                <p>Assisted in the deployment and configuration of Splunk for centralized logging and monitoring...</p>
+            </div>
+            <div class="project">
+                <h4>Phishing Simulation and Employee Training</h4>
+                <p>Conducted phishing simulations to evaluate the organization's susceptibility to social engineering attacks...</p>
+            </div>
         </div>
-        <div class="project">
-            <h3>Kubernetes-Driven Legacy Migration: Enhanced Scalability and Efficiency</h3>
-            <p>Jan 2018 — Dec 2018</p>
-            <p>Managed the transition from legacy infrastructure to a containerized system with Kubernetes, leading to better scalability and lower operational costs.</p>
-        </div>
-    </section>
-
-    <section id="education">
-        <h2>Education</h2>
-        <div class="education">
-            <h3>MSc in Computer Science</h3>
-            <p>University Of Hertfordshire, Hatfield, London</p>
-            <p>Feb 2021 — Feb 2023</p>
-            <p>Project: Enhancing Cyberattack Detection by Improving the Limitations of NIST Framework's Log and System Audit</p>
-            <!-- Add more details about your project and education here -->
-        </div>
-    </section>
-
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>AWS Cloud Technical Essentials</li>
-            <!-- Add more certifications here -->
-        </ul>
     </section>
 
     <section id="contact">
-        <h2>Contact Me</h2>
-        <ul>
-            <li>Location: HA3 7LY, Harrow, United Kingdom</li>
-            <li>Phone: 07394189157</li>
-            <li>Email: <a href="mailto:anishsampath1505@gmail.com">anishsampath1505@gmail.com</a></li>
-        </ul>
+        <div class="container">
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:anish15050908@gmail.com">anish15050908@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/%20anish-sampath-6b06702b9" target="_blank">linkedin.com/in/anish-sampath</a></p>
+            <p>Portfolio: <a href="https://anish0908.github.io/Anish-Portfolio/" target="_blank">anish0908.github.io/Anish-Portfolio/</a></p>
+            <p>GitHub: <a href="https://github.com/Anish0908/password-generator" target="_blank">github.com/Anish0908/password-generator</a></p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2023 Anish Sampath</p>
+        <div class="container">
+            <p>&copy; 2024 Anish Sampath</p>
+        </div>
     </footer>
 </body>
 </html>
